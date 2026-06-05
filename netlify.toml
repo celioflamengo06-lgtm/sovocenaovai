@@ -1,0 +1,38 @@
+[build]
+  publish = "."
+  functions = "functions"
+
+[[redirects]]
+  from = "/api/pix"
+  to = "/.netlify/functions/pix"
+  status = 200
+
+[[redirects]]
+  from = "/api/check-payment"
+  to = "/.netlify/functions/check-payment"
+  status = 200
+
+[[redirects]]
+  from = "/api/notify-approved"
+  to = "/.netlify/functions/notify-approved"
+  status = 200
+
+[[redirects]]
+  from = "/api/comprovantes/upload.php"
+  to = "/.netlify/functions/comprovantes-upload"
+  status = 200
+
+[[redirects]]
+  from = "/api/log-access"
+  to = "/.netlify/functions/log-access"
+  status = 200
+
+[[redirects]]
+  from = "/api/consulta.php"
+  to = "/.netlify/functions/consulta"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
