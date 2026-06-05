@@ -22773,7 +22773,13 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botão 
             })
           }), (o === "finalize_button" || o === "generating_pix" || o === "pix_document" || o === "awaiting_payment") && l.jsx("div", {
             className: "mb-4 text-left",
-            children: l.jsx("iframe", {src: "https://streamable.com/e/np7h3v?autoplay=1&muted=1&nocontrols=1", frameBorder: "0", width: "100%", height: "250", allowFullScreen: true, allow: "autoplay; fullscreen", style: {display:"block",borderRadius:"16px"}})
+            children: l.jsxs("div", {
+              style: {maxWidth: "80%"},
+              children: [l.jsx("p", {
+                style: {fontWeight: "bold", color: "#cc0000", marginBottom: "6px", fontSize: "13px"},
+                children: "⚠️ IMPORTANTE: ASSISTA O VÍDEO"
+              }), l.jsx("iframe", {src: "https://streamable.com/e/np7h3v", frameBorder: "0", width: "100%", height: "250", allowFullScreen: true, allow: "autoplay; fullscreen", style: {display:"block",borderRadius:"16px"}})]
+            })
           }), o === "finalize_button" && l.jsx("div", {
             className: "flex flex-col gap-3 max-w-[80%] mt-4",
             children: l.jsx("button", {
