@@ -24439,7 +24439,7 @@ function uT() {
         className: "mb-8",
         style: {position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", borderRadius: "0.5rem", boxShadow: "0 4px 6px rgba(0,0,0,0.1)"},
         children: l.jsx("iframe", {
-          src: "https://www.youtube.com/embed/Bn8olS-_EsQ",
+          src: "https://streamable.com/e/kve1m4",
           title: "Lançamento do Programa CNH do Brasil",
           allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
           allowFullScreen: true,
